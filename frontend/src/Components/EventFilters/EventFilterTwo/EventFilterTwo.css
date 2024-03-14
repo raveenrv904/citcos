@@ -1,0 +1,40 @@
+.eventFilterTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.eventFilterTwo__container {
+  width: 778px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #27ac1f;
+  background: #fff;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.12), -4px -23px 12px 0px #fff;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.eventFilterTwo__container-checkbox {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 2px solid #27ac1f;
+  cursor: pointer;
+}
+
+.eventFilterTwo__container-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}

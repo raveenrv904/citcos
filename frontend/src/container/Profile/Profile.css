@@ -1,0 +1,184 @@
+.profile__container {
+  width: 57.0625rem;
+  height: 32.95588rem;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.profile__container-top {
+  display: flex;
+  align-items: center;
+}
+
+.profile__container--top-beckIcon {
+  width: 3.35663rem;
+  height: 3.35663rem;
+  color: #27ac1f;
+  cursor: pointer;
+}
+
+.profile__container--top-title {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 1.83088rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profile__container-bottom--left {
+  padding-left: 2.5rem;
+  padding-top: 3rem;
+}
+
+.profile__container-bottom--left-profile {
+  width: 15.40994rem;
+  height: 15.40994rem;
+  border-radius: 15.40994rem;
+  background: lightgray 0px -7.124px / 100% 150% no-repeat;
+  margin-bottom: 0.9rem;
+}
+
+.profile__container-bottom--left-title {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 1.83088rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profile__container-bottom {
+  display: flex;
+}
+
+.profile__container-bottom--left {
+  flex: 0.2;
+}
+
+.profile__container-bottom--right {
+  flex: 0.8;
+}
+
+.profile__container-bottom--right-top {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.profile__container-bottom--right-top-details-title {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 1.83088rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profile__container-bottom--right-top-details-bulletPoints {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.14431rem;
+}
+
+.profile__container-bottom--right-top-details-bulletPoints-point {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 1.22056rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.profile__container-bottom--right-top-idProof {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__container-bottom--right-top-idProof-img {
+  width: 9.38325rem;
+  height: 13.12131rem;
+  border-radius: 0.76288rem;
+  background: lightgray 0px -17.406px / 100% 121.219% no-repeat;
+  box-shadow: 0px 2.44118px 9.76471px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profile__container-bottom--right-top-idProof-title {
+  color: #4285f4;
+  font-family: Montserrat;
+  font-size: 1.22056rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profile__container-bottom--right-bottom {
+  margin-left: 40px;
+}
+
+.profile__container-bottom--right-bottom-title {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 1.83088rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.4rem;
+}
+
+.profile__container-bottom--right-bottom-other {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0.68656rem;
+  background: #f4f6ff;
+  width: 32.57444rem;
+  height: 8.62038rem;
+}
+
+.profile__container-bottom--right-bottom-other-event,
+.profile__container-bottom--right-bottom-other-pdf,
+.profile__container-bottom--right-bottom-other-placement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__container-bottom--right-bottom-other-event-img {
+  width: 10.75644rem;
+  height: 5.87406rem;
+  border-radius: 0.30513rem;
+  background: lightgray 50% / cover no-repeat;
+  margin-bottom: 0.35rem;
+}
+
+.profile__container-bottom--right-bottom-other-event-title,
+.profile__container-bottom--right-bottom-other-pdf-title,
+.profile__container-bottom--right-bottom-other-placement-title {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 0.91544rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profile__container-bottom--right-bottom-other-pdf-img {
+  width: 5.90269rem;
+  height: 5.90269rem;
+  margin-bottom: 0.35rem;
+}
+
+.profile__container-bottom--right-bottom-other-placement-img {
+  width: 8.773rem;
+  height: 5.87406rem;
+  margin-bottom: 0.35rem;
+}

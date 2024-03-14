@@ -1,0 +1,66 @@
+.userChatOuter__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.userChatOuter__container-left {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px 10px 20px;
+}
+
+.userChatOuter__container-left-profileIcon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: lightgray 0px -3.83px / 100% 150.47% no-repeat;
+  margin-right: 6px;
+}
+
+.userChatOuter__container-left-desc-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.userChatOuter__container-left-desc-top-name {
+  color: #12181e;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 5px;
+}
+
+.userChatOuter__container-left-desc-top-college {
+  color: rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.userChatOuter__container-left-desc-bottom-desc {
+  color: #12181e;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.userChatOuter__container-right-option {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.chats__horizontalLine {
+  display: flex;
+  justify-content: center;
+}

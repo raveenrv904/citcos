@@ -1,0 +1,67 @@
+.academicFilterTwo {
+  margin-left: 130px;
+  -webkit-animation: slide-in-fwd-center 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.academicFilterTwo-top-container {
+  width: 520px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: rgba(220, 255, 217, 0.59);
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.academicFilterTwo-top-container--input {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  background: rgba(220, 255, 217, 0.59);
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+
+.academicFilterTwo-top-container-Icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  color: #27ac1f;
+  margin: 10px;
+}
+
+.academicFilterTwo-bottom__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.academicFilterTwo-bottom__container-cover {
+  display: flex;
+  gap: 10px;
+}
+
+.academicFilterTwo__bottom-container-cover-Uparrow {
+  width: 24px;
+  height: 24px;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  color: #4285f4;
+}
+
+.academicFilterTwo__bottom-container--cover-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

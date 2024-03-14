@@ -1,0 +1,56 @@
+.academicFilterPage__container {
+  width: 1022px;
+  height: 429px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.academicFilterPage-top-filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.academicFilterPage-top-filter-backIcon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  color: #27ac1f;
+  cursor: pointer;
+}
+
+.academicFilterPage__bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.academicFilterPage__bottom-container {
+  display: inline-flex;
+  height: 48px;
+  padding: 9px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #27ac1f;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.academicFilterPage__bottom-container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

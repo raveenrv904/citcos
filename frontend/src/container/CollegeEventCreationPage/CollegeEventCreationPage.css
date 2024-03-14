@@ -1,0 +1,350 @@
+.collegeEventCreationPage {
+  width: 1226px;
+  height: 855.215px;
+  flex-shrink: 0;
+  border-radius: 17.219px;
+  background: #fff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.collegeEventCreationPage-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.collegeEventCreationPage-top-left-smallContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.collegeEventCreationPage-top-left-backIcon {
+  width: 63.137px;
+  height: 63.137px;
+  flex-shrink: 0;
+  color: #27ac1f;
+  cursor: pointer;
+}
+
+.collegeEventCreationPage-top-left-text {
+  color: #414141;
+  font-family: Montserrat;
+  font-size: 22.959px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-top-left-middleContainer {
+  padding-left: 80px;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0 20px 90px;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-duration {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-duration-title {
+  color: #414141;
+  font-family: Montserrat;
+  font-size: 16.339px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.collegeEventCreationPage-top-left-bottomContainer-cover {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-duration-input {
+  width: 34.04px;
+  outline: none;
+  border: none;
+  text-align: right;
+  border-bottom: 1px solid #27ac1f;
+  flex-shrink: 0;
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 16.339px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-duration-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-duration-iconUpward {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  transform: rotate(90deg);
+  color: #27ac1f;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-duration-iconDownward {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+  color: #27ac1f;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-duration-text {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 16.339px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-date {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-date-title {
+  color: #414141;
+  font-family: Montserrat;
+  font-size: 16.339px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-top-left-bottomContainer-date-dateInput {
+  padding: 5px;
+  font-size: large;
+  border-radius: 5px;
+  color: #27ac1f;
+  border: 1px solid #27ac1f;
+  cursor: pointer;
+  outline: none;
+}
+
+.collegeEventCreationPage-middle-container {
+  margin-left: 70px;
+}
+
+.collegeEventCreationPage-middle-container-title {
+  color: #414141;
+  font-family: Montserrat;
+  font-size: 18.367px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-middle-container-input {
+  margin-top: 10px;
+  width: 1092.839px;
+  height: 198.594px;
+  flex-shrink: 0;
+  border-radius: 13.775px;
+  border: 1.722px solid #27ac1f;
+  background: #f6f6f6;
+  box-shadow: 0px -2.2958803176879883px 9.183521270751953px 0px rgba(
+      0,
+      0,
+      0,
+      0.08
+    ) inset;
+
+  outline: none;
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 13.775px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-bottom-bottom {
+  padding-left: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.collegeEventCreationPage-bottom-top {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.collegeEventCreationPage-bottom-top-eventLinks {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.collegeEventCreationPage-bottom-top-eventLinks-website {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  color: #4285f4;
+}
+
+.collegeEventCreationPage-bottom-top-eventLinks-linkedin {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #0a66c2;
+}
+
+.collegeEventCreationPage-bottom-top-eventLinks-facebook {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #1877f2;
+}
+
+.collegeEventCreationPage-bottom-bottom-left {
+  display: flex;
+  gap: 70px;
+  margin-top: 20px;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-entryDetails {
+  display: flex;
+  gap: 10px;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-entryDetails-title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-entryDetails-dropdown {
+  border-radius: 2.543px;
+  border: 1.271px solid rgba(0, 0, 0, 0.3);
+  background: #f4f6ff;
+  width: 100.446px;
+  height: 31.787px;
+  flex-shrink: 0;
+  color: #27ac1f;
+  font-family: Montserrat;
+  font-size: 20.344px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-entryDetails-dropdown-option {
+  color: #27ac1f !important;
+  font-family: Montserrat;
+  font-size: 20.344px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-other {
+  display: flex;
+  gap: 50px;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-other-fee-title,
+.collegeEventCreationPage-bottom-bottom-left-other-category-title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20.344px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-other-fee-input,
+.collegeEventCreationPage-bottom-bottom-left-other-category-input {
+  color: rgba(0, 0, 0, 0.2);
+  font-family: Montserrat;
+  font-size: 15.258px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #27ac1f;
+  width: 113.161px;
+  flex-shrink: 0;
+  padding-left: 5px;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-other-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-other-addOther {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-other-addOther-AddIcon {
+  width: 30.515px;
+  height: 30.515px;
+  flex-shrink: 0;
+  color: #4285f4;
+}
+
+.collegeEventCreationPage-bottom-bottom-left-other-addOther-desc {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 15.258px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.collegeEventCreationPage-bottom-bottom-right {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 20px; */
+}
+
+.collegeEventCreationPage-bottom-bottom-right-button {
+  display: inline-flex;
+  height: 48px;
+  padding: 9px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #27ac1f;
+  cursor: pointer;
+}
+
+.collegeEventCreationPage-bottom-bottom-right-button-text {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

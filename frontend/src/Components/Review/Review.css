@@ -1,0 +1,36 @@
+.review {
+  overflow: scroll;
+  height: 57.5vh;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.review::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+.review::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Hide scrollbar for Firefox */
+.review {
+  scrollbar-width: none;
+}
+
+.review::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.review::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.review {
+  -ms-overflow-style: none;
+}

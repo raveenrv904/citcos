@@ -1,0 +1,8 @@
+.messageCard__container {
+  width: 100%;
+  height: 33vh;
+  /* background-color: red; */
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+}

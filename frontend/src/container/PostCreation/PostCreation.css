@@ -1,0 +1,199 @@
+.postCreation {
+  width: 813px;
+  height: 372px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.postCreation-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 29px;
+}
+
+.postCreation-top-left {
+  display: flex;
+  align-items: center;
+}
+
+.postCreation-top-left-profile {
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  fill: #fff;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.15));
+  margin-right: 10px;
+}
+
+.postCreation-top-left-details-name {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  margin-bottom: 3px;
+}
+
+.postCreation-top-left-details-college {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.postCreation-top-right {
+  display: flex;
+  align-items: center;
+}
+
+.postCreation-top-right-desc {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+input[type="checkbox"].postCreation-top-right-checkbox {
+  font-size: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 2em;
+  height: 1em;
+  background: #ddd;
+  border-radius: 3em;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"].postCreation-top-right-checkbox:checked {
+  background: #4285f4;
+}
+
+input[type="checkbox"].postCreation-top-right-checkbox:after {
+  position: absolute;
+  content: "";
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+  left: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"].postCreation-top-right-checkbox:checked:after {
+  left: calc(100% - 1em);
+}
+
+.postCreation-top-right-checkbox {
+  cursor: pointer;
+}
+
+.postCreation-middle-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postCreation-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 731px;
+  height: 192px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1.5px solid #4285f4;
+  background: #f4f6ff;
+  box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.08) inset;
+}
+
+.postCreation-middle-textArea {
+  width: 720px;
+  height: 185px;
+  background: #f4f6ff;
+  border: none;
+  overflow: auto;
+  outline: none;
+  padding: 10px 15px;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.postCreation-middle-textArea::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+.postCreation-middle-textArea::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Hide scrollbar for Firefox */
+.postCreation-middle-textArea {
+  scrollbar-width: none;
+}
+
+.postCreation-middle-textArea::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.postCreation-middle-textArea::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.postCreation-middle-textArea {
+  -ms-overflow-style: none;
+}
+
+.postCreation-bottom-cover {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 41px;
+  padding-top: 25px;
+}
+
+.postCreation-bottom {
+  width: 104px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #4285f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.postCreation-buttom-button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

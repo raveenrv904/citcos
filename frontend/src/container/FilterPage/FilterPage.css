@@ -1,0 +1,54 @@
+.filterPage__container {
+  width: 942px;
+  height: 584px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.filterPage__container-top-filter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.filterPage__container-top-filter-backIcon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  fill: #27ac1f;
+  cursor: pointer;
+}
+
+.filterPage__container-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 15px 28px;
+}
+
+.filterPage__container-bottom-buttonContainer {
+  display: inline-flex;
+  height: 48px;
+  padding: 9px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #27ac1f;
+  cursor: pointer;
+}
+
+.filterPage__container-bottom-buttonText {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

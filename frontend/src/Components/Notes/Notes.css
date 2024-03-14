@@ -1,0 +1,142 @@
+.notes {
+  width: 847px;
+  height: 207px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.12), -4px -7px 12px 0px #f4f6ff;
+  padding: 14px 19px;
+  margin: 25px 10px 25px 10px;
+}
+
+.notes__top {
+  display: flex ;
+  justify-content: space-between;
+}
+
+.notes__top-left {
+  display: flex;
+}
+
+.notes__top-left-affliation {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.notes__top-left-college {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.notes__top-right {
+  display: flex;
+  gap: 10px;
+}
+
+.notes__top-right-bookmarkIcon {
+  width: 27.857px;
+  height: 27.857px;
+  flex-shrink: 0;
+  color: #27ac1f;
+  cursor: pointer;
+}
+
+.notes__top-right-optionIcon {
+  width: 27.857px;
+  height: 27.857px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.notes__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 0;
+}
+
+.notes__bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.notes__bottom-left-department,
+.notes__bottom-left-sub_code {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.notes__bottom-left-subject {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.notes__bottom-right {
+  cursor: pointer;
+}
+
+.notes__bottom-right-downloadBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 232px;
+  height: 75px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.12), -4px -7px 12px 0px #f4f6ff;
+}
+
+.notes__bottom-right-downloadBox-left {
+  display: flex;
+  align-items: center;
+}
+
+.notes__bottom-right-downloadBox-left-pdfIcon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  color: #d24d4d;
+}
+
+.notes__bottom-right-downloadBox-left-details-title {
+  color: #616161;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.notes__bottom-right-downloadBox-left-details-size {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Montserrat;
+  font-size: 14.412px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.notes__bottom-right-downloadBox-right-downloadIcon {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  color: #27ac1f;
+}

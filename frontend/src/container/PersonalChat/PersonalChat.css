@@ -1,0 +1,119 @@
+.personalChat {
+  width: 440px;
+  height: 48.7vh;
+  flex-shrink: 0;
+  border-radius: 30px 30px 0px 0px;
+  border: 1px solid #27ac1f;
+  background: #fff;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.12), -4px -23px 12px 0px #f4f6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.personalChat__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px;
+}
+
+.personalChat__left {
+  display: flex;
+  align-items: center;
+}
+
+.personalChat__left-icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  fill: #27ac1f;
+  cursor: pointer;
+}
+
+.personalChat__left-details {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.personalChat__left-details-profile {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.personalChat__left-details-profile-personal {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.personalChat__left-details-profile-personal-name {
+  color: #12181e;
+  font-family: Montserrat;
+  font-size: 15.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2px;
+}
+
+.personalChat__left-details-profile-personal-college {
+  color: rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 15.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.personalChat__right-option {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.chat__horizontalLine {
+  width: 100%;
+}
+
+.personalChat__bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.personalChat__bottom-msgBox {
+  width: 416px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #ebeeff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+.personalChat__bottom-msgBox-input {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 13nbpx;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #ebeeff;
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+
+.personalChat__bottom-msgBox-sendIcon {
+  width: 23px;
+  height: 22.102px;
+  flex-shrink: 0;
+  color: #27ac1f;
+}

@@ -1,0 +1,284 @@
+.eventDetails {
+  /* width: 1381px; */
+  /* height: 879px; */
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+.eventDetails-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 33px 0;
+}
+
+.evetDetails-top-cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.eventDetails-top-left-Icon {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  color: #27ac1f;
+  cursor: pointer;
+}
+
+.eventDetails-top-right-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.eventDetails-top-right-top-left-eventName {
+  color: #414141;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.eventDetails-top-middle-image {
+  height: 450px;
+  width: 806px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: lightgray 33016630519.033px 82910677.33px / -4163041516.545% -1317212479.649%
+    no-repeat;
+  z-index: 999;
+  cursor: pointer;
+  margin: 0 27px;
+}
+
+.eventDetails-top-right-top-right-bookmark {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #27ac1f;
+  cursor: pointer;
+}
+
+.eventDetails-top-right-top-right-dot {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #616161;
+  cursor: pointer;
+}
+
+.eventDetails-top-right-middle {
+  display: flex;
+  align-items: flex-start;
+  margin: 30px 0;
+}
+
+.eventDetails-top-right-middle-calender {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #27ac1f;
+}
+.eventDetails-top-right-middle-date-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.eventDetails-top-right-middle-date {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.eventDetails-top-right-middle-date-real {
+  color: #616161;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.eventDetails-top-right-bottom-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 18px 0;
+}
+
+.eventDetails-top-right-bottom-title-dollarIcon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #27ac1f;
+}
+
+.eventDetails-top-right-bottom-title-entryfees {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.eventDetails-top-right-bottom-title-entryfees-cover {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 6px;
+  background: #f4f6ff;
+  width: 393px;
+  padding: 10px;
+}
+
+.eventDetails-top-right-bottom-title-entryfees-cover-fees {
+  width: 393px;
+  color: #616161;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.eventDetails-top-right-bottom-note {
+  margin-top: 30px;
+  margin-right: 31px;
+}
+
+.eventDetails-top-right-bottom-noteTitle {
+  color: #ff5a5a;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.eventDetails-top-right-bottom-notesDetail {
+  color: #616161;
+}
+
+/* BOTTOM STYLE */
+.eventDetails-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 19px 40px;
+}
+
+.eventDetails-bottom-collegeDetails {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.eventDetails-bottom-collegeDetails-locationIcon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #27ac1f;
+}
+
+.eventDetails-bottom-collegeDetails-collegeName {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.eventDetails-bottom-collegeDetails-shareIcon {
+  width: 36px;
+  height: 37.11px;
+  flex-shrink: 0;
+  color: #27ac1f;
+}
+
+.eventDetails-bottom-eventDetails {
+  width: 1246px;
+  margin: 0 20px;
+}
+
+.eventDetails-bottom-eventDetails-desc {
+  color: #616161;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.eventDetails-bottom-eventDetails-desc-more {
+  font-family: Inter;
+  color: #27ac1f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.eventDetails-bottom-contactDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventDetails-bottom-contactDetails-left {
+  display: flex;
+  gap: 25px;
+}
+
+.eventDetails-bottom-contactDetails-left-instagramIcon,
+.eventDetails-bottom-contactDetails-left-facebookIcon,
+.eventDetails-bottom-contactDetails-left-linkedinIcon {
+  width: 39.118px;
+  height: 39.118px;
+  flex-shrink: 0;
+  color: #616161;
+}
+
+.eventDetails-bottom-contactDetails-right {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.eventDetails-bottom-contactDetails-right-contactOrganiser,
+.eventDetails-bottom-contactDetails-right-register {
+  display: inline-flex;
+  padding: 8px 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #616161;
+  cursor: pointer;
+}
+
+.eventDetails-bottom-contactDetails-right-contactOrganiser-text,
+.eventDetails-bottom-contactDetails-right-register {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.eventDetails-bottom-contactDetails-right-register {
+  background-color: #27ac1f;
+}
+
+.showWindow__backgound2 {
+  opacity: 0.1 !important;
+}
